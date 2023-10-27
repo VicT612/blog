@@ -1,0 +1,34 @@
+.formRegistro{
+    margin-top: 10rem;
+    margin-left: 4rem;
+    width: 400px;
+    height: 100px;
+    color: aliceblue !important;
+}
+
+.ant-form-item-required{
+    color: aliceblue !important;
+}
+.ant-input {
+    background-color: #282A2F !important;
+    border: none !important;
+    color: aliceblue !important;
+    
+}
+.ant-input::placeholder {
+    background-color: #282A2F !important;
+    border: none !important;
+    color: aliceblue !important;
+    
+}
+.ant-input-affix-wrapper  {
+    background-color: #282A2F !important;
+    border: none !;
+    color: aliceblue !important;
+}
+svg {
+    color: #ffff;
+}
+span{
+    color: aliceblue;
+}

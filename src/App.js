@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import ButtonMostrar from './Componentes/Formulario/Index';
+import Login from './Componentes/Login/Index';
+import Registro from './Componentes/Registro';
+import Inicio from './Componentes/Inicio/Index';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Router>
+        <Routes>
+          <Route path='/' element={<Login></Login>}></Route>
+          <Route path='/signup' element={<Registro></Registro>}></Route>
+          <Route path='/blogs' element={<Inicio></Inicio>}></Route>
+        </Routes>
+      </Router>
+      
+
+    </>
   );
 }
 

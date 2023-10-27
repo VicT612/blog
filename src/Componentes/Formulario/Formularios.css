@@ -1,0 +1,44 @@
+.FormularioBoton{
+    background-color: #1AB9EC;
+    display: fixed;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14);
+    top: 70px;
+    left:1610px;
+}
+.boton{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.titulo{
+    text-align: center;
+    color: #FFFFFF;
+}
+.formu{
+    padding: 30px;
+    background-color: #202227;
+    border-radius: 10px;
+}
+.btn{
+    background-color: #2E2E48;
+    color: #FFFFFF;
+}
+.lab{
+    color: #FFFFFF;
+    font-size: 200px;
+}
+.log{
+    text-align: center;
+}
+.ppf{
+    color: #FFFFFF;
+}

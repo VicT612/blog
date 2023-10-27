@@ -1,0 +1,32 @@
+.login-form{
+    margin-top: 10rem;
+    margin-left: 4rem;
+    width: 400px;
+    height: 100px;
+    color: aliceblue !important;
+    
+}
+.ant-form{
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-form-item-required{
+    color: aliceblue !important;
+}
+.site-form-item-icon {
+    background-color: #282A2F !important;
+    border: none !important;
+    color: aliceblue !important;
+    
+}
+
+svg {
+    color: #ffff;
+}
+span{
+    color: aliceblue;
+}
+button {
+    margin-bottom: 30px;
+}
